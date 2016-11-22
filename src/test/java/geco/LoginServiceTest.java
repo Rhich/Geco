@@ -16,7 +16,7 @@ public class LoginServiceTest {
     public void setUp() throws Exception {
         String[] start = new String[1];
         start[0] = ANEM;
-        ls new LoginService(start);
+        ls = new LoginService(start);
 
     }
 
